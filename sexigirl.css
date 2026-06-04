@@ -1,0 +1,50 @@
+body{
+margin: 0;
+pading: 0;
+height: 100vh;
+display: flex; 
+flex-direction: column; 
+align-items: center;
+justify-content: center;
+background-size: cover;
+}
+
+h1{
+color: darkgreen;
+}
+
+.pond{
+	display: flex;
+	flex-wrap: wrap;
+	align-content: start;
+	align-items: flex-end;
+	justify-content: center; 
+	gap: 100px; висота: 300px;
+	position: relative;
+} 
+
+.lotus{
+	width: 200px;
+	height: 90px;
+	background-size: cover;
+}
+
+.house{
+	width: 270px;
+	height: 200px;
+	background-size: cover; 
+	position: relative;
+}
+
+.frog{
+	width: 100px;
+	position: absolute;
+	bottom: 0;  left: 30%;
+	display: none;
+}
+
+.house:hover .frog{
+display: block;
+}
+
+
